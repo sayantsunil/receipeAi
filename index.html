@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        Recipe Finder Chatbot - Discover Meals with What You Have
+    </header>
+
+    <div class="main-content">
+        
+        <div class="content">
+            <h2>Find Recipes Based on Available Ingredients</h2>
+            <p>Don't know what to cook? Just tell the chatbot what ingredients you have at home, and it will suggest tasty recipes you can make with them!</p>
+            <div class="image-container">
+                <div class="image-overlay">
+                    <img src="ghost1.jpeg" alt="img">
+                </div>
+            </div>
+
+            <p>Whether you're looking for a quick snack or a gourmet dinner, the Recipe Finder Chatbot can help you make the most of what’s in your pantry. Say goodbye to food waste and hello to creativity in the kitchen!</p>
+
+            <button class="button" onclick="startChat()">Chat with the Recipe Bot</button>
+        </div>
+
+        <div id="chat-container">
+            <div id="chat-box">
+                <div class="message bot">Welcome to the Recipe Finder Chatbot! Tell me what ingredients you have, and I'll find you something delicious.</div>
+            </div>
+            <input type="text" id="user-input" placeholder="Type your ingredients here...">
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+
+    <script>
+        function startChat() {
+            alert('Welcome to the Recipe Finder Chatbot! Enter your ingredients and discover recipes.');
+        }
+    </script>
+    
+    <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+    <script src="https://files.bpcontent.cloud/2025/04/06/13/20250406133955-7FHXAO51.js"></script>
+</body>
+</html>
